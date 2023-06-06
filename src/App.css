@@ -1,44 +1,203 @@
-.App{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
+html {
+    position: relative;
+    overflow-x: hidden !important;
+  }
+
+
+.ant-row.ant-row-center.space-col.css-dev-only-do-not-override-6foo54 {
+    margin-top: 4rem;
 }
-.appHeader{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 1px 2px 2px #00000033;
+p.about-des {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.soppingCartIcon{
-    font-size: 30px;
-    margin-right: 16px;
-    cursor: pointer;
+h2.page-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 0px;
+    text-align: center;
+    color: #373737;
 }
-.productsContainer{
-    padding: 8px;
+p.about-description {
+    font-family: 'Red Hat Display', sans-serif;
+    /* line-height: 0px; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #291C61;
 }
-.appMenu{
-    border: none;
+p.card-des {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #2A2A2B;
 }
-.pageContent{
-    display: flex;
-    flex: 1;
-    overflow-y: auto;
-    margin-top: 2px;
+
+.card-about{
+
+    width: 282px!important;
+    height: 290px!important;
+    }
+    h2.m-v-head {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 52px;
+        color: #291C61;
+    }
+
+
+@media only screen and (max-width: 767px) {
+
+   .card-about{
+
+    margin-top:4rem;
+    }
+    .card-section {
+        padding: 5px 0px 0px 0px!important;
+    }
+
+   
 }
-.appFooter{
-    height: 60px;
-    background-color: black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+@media only screen and (min-width: 768px) {
+
+
+
 }
-.itemCard, .itemCardBadge{
-    margin: 8px;
+
+/* new css */
+
+ 
+.tabs {
+   
+    overflow: revert;
+
 }
-.itemCardImage{
-    height: 150px !important;
-    object-fit: scale-down;
+
+.row.accordian {
+  padding-top: 78px;
+  padding-bottom: 58px;
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: black;
+  background: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.tab-label:hover {
+  background: #ffffff;
+}
+.tab-label::after {
+
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #d1d7dd;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+img.accordian-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+
+.tab-label {
+  display: flex;
+  justify-content: flex-start!important;
+  padding: 1em;
+  background: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: justify;
+}
+.tab {
+  width: 84%!important;
+  color: white;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 11px;
+  margin: auto;
+  margin-top: 14px;
+}
+
+
+.tab {
+  width: 88%;
+  color: white;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 11px;
+  margin: auto;
+  margin-top: 14px;
+}
+
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.checkboxes{
+  display: none;
+}
+
+.row.accordian {
+  padding-top: 78px;
 }

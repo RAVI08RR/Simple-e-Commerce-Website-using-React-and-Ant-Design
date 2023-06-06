@@ -1,17 +1,16 @@
 import {} from "antd";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import AppFooter from "./Components/Footer";
-import AppHeader from "./Components/Header";
-import PageContent from "./Components/PageContent";
+
+import About from "./Components/About";
+import Accordian from "./Components/Accordian";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <AppHeader />
-        <PageContent />
-        <AppFooter />
+        <About/>
+        <Accordian/>
       </BrowserRouter>
     </div>
   );
