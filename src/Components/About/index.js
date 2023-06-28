@@ -60,24 +60,24 @@ const About = () => (
 </div>
 
 <Row justify="center" style={{ marginTop: '20px'}} >
-    <Col xs={24} xl={10}>
-    <Card
+    <Col xs={30} xl={10}>
+    <Card className='card-m'
     
-    style={{ width: 500 , height :500 }}
+    style={{ width: 500 , height :527 }}
     cover={<img alt="example" src="./mission.png" />}
   >
     <h2 className='m-v-head'>Our Mission</h2>
-    <p>To provide an AI-powered one-stop online portal for buyers & sellers of industrial consumables & spares with the best varieties & prices, online warranty & quality assurance, & most diverse delivery options!</p>
+    <p className='mission-para'>To provide an AI-powered one-stop online portal for buyers & sellers of industrial consumables & spares with the best varieties & prices, online warranty & quality assurance, & most diverse delivery options!</p>
   </Card>
       </Col>
-      <Col xs={24} xl={10}>
-      <Card
+      <Col xs={30} xl={10}>
+      <Card className='card-m'
    
-    style={{ width: 500 , height :500 }}
+    style={{ width: 500 , height :527 }}
     cover={<img alt="example" src="./vission-indi.png" />}
   >
 <h2 className='m-v-head'>Our Vision</h2>
-<p>To empower the MSMEs in the B2B space by digitally revolutionising the industrial spare parts supply chain pan India by seamlessly connecting the manufacturers, distributors, OEMs, & suppliers with the target consumers - through a seamless one-stop portal for quick procurement & sale!</p>
+<p className='mission-para'>To empower the MSMEs in the B2B space by digitally revolutionising the industrial spare parts supply chain pan India by seamlessly connecting the manufacturers, distributors, OEMs, & suppliers with the target consumers - through a seamless one-stop portal for quick procurement & sale!</p>
   </Card>
       </Col>
     </Row>

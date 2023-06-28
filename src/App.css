@@ -63,13 +63,156 @@ p.card-des {
     }
     .card-section {
         padding: 5px 0px 0px 0px!important;
+        margin-top: 0px!important;
     }
+    .accordian-head {
+      font-style: normal;
+      font-weight: 700!important;
+      font-size: 29px!important;
+      line-height: 28px!important;
+      color: #291C61!important;
+  }
+  .tab {
+    width: 103%!important;
+    color: white;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 11px;
+    margin: auto;
+    margin-top: 14px;
+}
+.card-m{
+  width: 359px!important;
+  height: 527px!important;
+  margin-bottom: 2rem;
 
+}
+.tab-label {
+  display: flex;
+  justify-content: flex-start!important;
+  padding: 1em;
+  background: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left!important;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #ffffff;
+  font-size: 16px!important;
+  font-weight: 600;
+  cursor: pointer;
+}
    
 }
-@media only screen and (min-width: 768px) {
+@media (max-width: 1280px) { 
 
+  .card-about {
+    height: 290px!important;
+    width: 252px!important;
+}
+.card-m{
+  width: 467px!important;
+  height: 527px!important;
+  margin-bottom: 2rem;
 
+}
+
+.accordian-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px!important;
+  line-height: 22px;
+  color: #291C61;
+}
+.card-m {
+  width: 467px!important;
+  height: 527px!important;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+}
+
+@media (max-width: 1156px){
+.card-about {
+    height: 315px!important;
+    width: 223px!important;
+    margin-left: 1rem;
+}
+
+.card-about {
+  height: 285px!important;
+  width: 242px!important;
+  margin-left: 1rem;
+  margin-right: 0rem;
+}
+
+.accordian-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px!important;
+  line-height: 22px;
+  color: #291C61;
+}
+}
+@media (max-width: 750px )and 
+(min-width:350px){
+  .card-about{
+
+    margin-top:4rem;
+    }
+    .card-section {
+        padding: 5px 0px 0px 0px!important;
+        margin-top: 0px!important;
+    }
+    .accordian-head {
+      font-style: normal;
+      font-weight: 700!important;
+      font-size: 29px!important;
+      line-height: 28px!important;
+      color: #291C61!important;
+  }
+  .tab {
+    width: 103%!important;
+    color: white;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 11px;
+    margin: auto;
+    margin-top: 14px;
+}
+.card-m{
+  width: 359px!important;
+  height: 527px!important;
+  margin-bottom: 2rem;
+
+}
+.tab-label {
+  display: flex;
+  justify-content: flex-start!important;
+  padding: 1em;
+  background: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left!important;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #ffffff;
+  font-size: 16px!important;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 }
 
@@ -93,6 +236,9 @@ p.card-des {
   overflow: hidden;
 }
 .tab-label {
+
+
+  
   display: flex;
   justify-content: space-between;
   padding: 1em;
@@ -157,10 +303,10 @@ img.accordian-img {
   background: #ffffff;
   font-weight: bold;
   cursor: pointer;
-  text-align: justify;
+  text-align: left;
 }
 .tab {
-  width: 84%!important;
+  width: 84%;
   color: white;
   overflow: hidden;
   background-color: white;
@@ -189,7 +335,8 @@ img.accordian-img {
   justify-content: space-between;
   padding: 1em;
   background: #ffffff;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -200,4 +347,26 @@ img.accordian-img {
 
 .row.accordian {
   padding-top: 78px;
+}
+p.mission-para {
+  font-family: 'Red Hat Display', sans-serif;
+  /* font-family: 'Red Hat Display'; */
+  font-size: 18px;
+  line-height: 23px;
+}
+.accordian-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 22px;
+  color: #291C61;
+}
+.accordian-bottom {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 22px;
+  color: #291C61;
+}
+.tab-content {
+  font-size: 16px;
 }

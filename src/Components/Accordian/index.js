@@ -19,8 +19,8 @@ const App = () => {
     <Row justify="center" style={{ marginTop: 24,}}>
 <Col span={12}>
 
-  <h2 align="center">What services make us TICK?</h2>
-  <p align="center" style={{fontSize:18}}>Our 4 major services include:</p>
+  <h2 align="center" className='accordian-head'>What services make us TICK?</h2>
+  <p align="center" className='accordian-bottom' style={{fontSize:18}}>Our 4 major services include:</p>
 </Col>
 
        <Col span={20}>
@@ -78,6 +78,9 @@ const App = () => {
         </div>
       </div>
     </div>
+    <div  style={{ paddingTop: 24,}}></div>
+
+
     </Col>
     </Row>
   );
